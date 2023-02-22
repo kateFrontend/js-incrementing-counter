@@ -8,7 +8,7 @@ counters.forEach(counter => {
 
         const c = +counter.innerText
 
-        const increment = target / 300  // console.log(increment)
+        const increment = target / 300  // console.log(increment) set up the number to make the counter faster or slower
 
         if(c < target){
             counter.innerText = `${Math.ceil(c + increment)}`
